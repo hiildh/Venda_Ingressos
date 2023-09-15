@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+html{
+    overflow: auto;
+}
+
+.topnav {
+    background-color: #000000bb;
+    overflow: hidden;
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav h1 {
+    float: right;
+    color: #e8602a;
+    margin-top: 20px;
+    text-align: center;
+    padding: 14px 16px;
+}
+.fantasma{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+iframe {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.titulo{
+    color: #e8602a;
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fundo{
+    opacity: 90%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.text{
+    font:'Roboto', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container {
+    z-index: 10;
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #ffdba6;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid rgb(168, 103, 5);
+    border-radius: 5px;
+}
+
+footer{
+    color: #e8602a;
+    background-color: #00000091;
+    position: absolute;
+    bottom: 0;
+}
+
+
+/* ------------------------botões----------------------- */
+.button {
+    position: relative;
+    margin-bottom: 10px;
+    padding: 10px 22px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #db821b;
+    transition: all 0.2s ease;
+}
